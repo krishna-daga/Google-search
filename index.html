@@ -1,48 +1,57 @@
-<!DOCTYPE html>
+
+           <!DOCTYPE html>
 <html lang="en">
-    <style>
-        #navbar{
-            float:right;
-        }
-    </style>
-    <head>
-        <link rel="stylesheet"  type="text/css" href="search.css" />
-        <title>Search</title>
-    </head>
-    <body>
-        <header><div><nav id="navbar">
+<head>
+    
+    <link rel="stylesheet"  type="text/css" href="search.css" />
+    <title>Google Search</title>
+</head>
+<body>
+    
+    <div class="header">
+        <div class="header-links">
+            <a href="imagesearch.html">Google Images</a>
+            <a href="advancedsearch.html">Google Advanced Search</a>
+        </div>
+    </div>
+    
+    <div class="search-container">
+        <img  src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" />
+        <form action="https://www.google.com/search" >
+            <div class="search-field">
+                
+                <input type="text" name="q">
+            </div>
+            <input style="background-color:#f8f9fa; border: 1px solid #f8f9fa;
+            border-radius: 4px;
+            color: #3c4043;
+            font-family: arial,sans-serif;
+            font-size: 14px;
+            margin: 11px 4px;
+            padding: 0 16px;
+            line-height: 27px;
+            height: 36px;
+            min-width: 54px;
+            text-align: center;
+            cursor: pointer;
+            user-select: none;"type="submit" value="Google Search">
             
-                <a href="imagesearch.html">Image search</a>
-                <a href="advancedsearch.html">Advanced search</a>
-            
-        </nav></div>
-    </header>
-<div style="position:fixed;
-top: 50%;
-left: 50%;
-margin-top: -50px;
-margin-left: -100px;"><h1>Google</h1>
-        <form action="https://google.com/search">
-            <input type="text" name="q" style="border-bottom-color: #b3b3b3;
-            border-bottom-left-radius: 15px;
-            border-bottom-right-radius: 15px;
-            border-bottom-style: solid;
-            border-bottom-width: 1px;
-            border-left-color: #b3b3b3;
-            border-left-style: solid;
-            border-left-width: 1px;
-            border-right-color: #b3b3b3;
-            border-right-style: solid;
-            border-right-width: 1px;
-            border-top-color: #b3b3b3;
-            border-top-left-radius: 15px;
-            border-top-right-radius: 15px;
-            border-top-style: solid;
-            border-top-width: 1px;"><br>
-            <input type="submit" value="Google Search">
-            <input type="submit" value="I'm feeling lucky">
+            <input style="background-color:#f8f9fa; border: 1px solid #f8f9fa;
+            border-radius: 4px;
+            color: #3c4043;
+            font-family: arial,sans-serif;
+            font-size: 14px;
+            margin: 11px 4px;
+            padding: 0 16px;
+            line-height: 27px;
+            height: 36px;
+            min-width: 54px;
+            text-align: center;
+            cursor: pointer;
+            user-select: none;"type="submit" name="btnI" value="I'm Feeling Lucky">
         </form>
-    </div></body>
-        
-    </body>
+
+    </div>
+    
+</body>
 </html>
